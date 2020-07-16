@@ -1,0 +1,159 @@
+/*
+#a87932 - header color
+#e9e9f7 - body colour
+#0b0b33 - skills color
+#232424 - almost black
+#fcfcfc - almost white
+
+<span>Photo by <a href="https://unsplash.com/@joannakosinska?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Joanna Kosinska</a> on <a href="/s/photos/education?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+*/
+
+/*global styling
+-----------------------------------------------------*/
+body{
+	background-color: #fcedc2;
+	text-align: center;
+	margin: 0 ;
+	font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4{
+	margin: 0;
+}
+h2,h3,h4{
+	padding: 20px;
+}
+h1{
+	font-family: 'Amatic SC', cursive;
+	font-size: 100px;
+	letter-spacing: 5px;
+}
+h2{
+	color: #663c1c;
+	font-size: 30px;
+}
+h4{
+	font-weight: 600;
+}
+.align-content{
+	max-width: 750px;
+	margin: 0 auto;
+	width: 80%;
+	padding: 10px;
+
+}
+.grid{
+	display: inline-grid;
+	grid-template-columns: 1fr 2fr ;
+	grid-template-rows: auto;
+	grid-column-gap: 10px;
+}
+
+.grid-item{
+	padding: 10px;
+}
+.grid-row{
+	border-bottom: 1px dashed #663c1c;
+}
+.grid p{
+	margin: 0;
+	line-height: 1.5;
+}
+
+/*about styling
+-----------------------------------------------------*/
+.about{
+		background-color: #a87932;
+		color: #fcfcfc;
+}
+.about p{
+	font-size: 20px;
+}
+
+
+/*skills styling
+-----------------------------------------------------*/
+.skills{
+}
+
+.skills ul{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style-type: none;
+	padding: 0;
+}
+.skills li{
+	background-color: #a87932;
+	color: #fcfcfc;
+	font-size: 25px;
+	padding: 25px;
+	margin: 10px;
+	border-radius: 5%;
+	width: 100px;
+}
+
+
+/*projects styling
+-----------------------------------------------------*/
+
+
+
+/*experience styling
+-----------------------------------------------------*/
+
+
+/*certifications styling
+-----------------------------------------------------*/
+.certifications a {
+	color: #232424;
+	text-decoration: none;
+}
+
+
+/*education styling
+-----------------------------------------------------*/
+/*.education{
+	background-image: url("../images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg");
+	background-repeat: no-repeat;
+	object-fit: cover;
+}*/
+
+
+/*contact styling
+-----------------------------------------------------*/
+footer{
+	background-color: #a87932;
+	padding-bottom: 10px;
+}
+footer h2{
+	color: #fcfcfc;
+}
+footer a{
+	 color: #fcedc2;
+	 text-decoration: none;
+	 font-size: 25px;
+}
+footer a:hover{
+	color: #663c1c;
+}
+footer .align-content div  {
+	margin: 30px 0;
+}
+
+/*responsive styling
+-----------------------------------------------------*/
+@media screen and (min-width: 430px){
+	footer a{
+		background-color: #fcedc2;
+		color: #a87932;
+		font-size: 25px;
+		text-decoration: none;
+		padding: 15px;
+		margin-bottom: 30px;
+		border-radius: 5px;
+	}
+	footer a:hover{
+		background-color: #663c1c;
+		color: #fcedc2;
+	}
+}
